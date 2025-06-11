@@ -18,16 +18,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final List<Color> rainbowColors = [
-    Colors.red,
-    Colors.orange,
-    Colors.yellow,
-    Colors.green,
-    Colors.blue,
-    Colors.indigo,
-    Colors.purple,
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Padding(
